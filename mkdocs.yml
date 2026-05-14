@@ -1,10 +1,10 @@
 site_name: Tin docs
 site_url: https://randomusert-s-mods.github.io/tin-docs/
-repo_url: https://github.com/randomusert-s-mods/tin-docs
-
 site_description: Documentation for Tin mods by Randomusert
-
 site_author: Randomusert
+
+
+repo_url: https://github.com/randomusert-s-mods/tin-docs
 edit: blob/main/docs/
 
 # Theme
