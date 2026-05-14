@@ -1,3 +1,10 @@
+---
+hide:
+  - navigation
+  - toc
+title: Home
+---
+
 # Tin docs
 Welcome to tin docs! Tin docs holds docs for my mods.
 

@@ -5,22 +5,31 @@ site_author: Randomusert
 
 
 repo_url: https://github.com/randomusert-s-mods/tin-docs
-edit: blob/main/docs/
+edit_uri: https://github.com/randomusert-s-mods/tin-docs/tree/main/docs 
 
 # Theme
 theme:
-  name: readthedocs
+  name: material
   locale: en
   color_mode: auto
   user_color_mode_toggle: true
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - toc.follow
+    - content.code.annotate
+    - content.action.view
 
 
 # Nav
 nav:
   - Home: index.md
-  - Mods:
-      - Tincore: tincore/index.md
-
+  - Tincore: tincore/index.md
+  - tincraft 2: tincraft2/index.md
 
 # copyright
 copyright: Copyright (c) 2026 Randomusert. Licensed under the MIT License.
