@@ -25,11 +25,23 @@ theme:
     - content.action.view
 
 
-# Nav
 nav:
   - Home: index.md
-  - Tincore: tincore/index.md
-  - tincraft 2: tincraft2/index.md
+  - Tincore:
+      - Main: tincore/index.md
+
+  - Tincraft 2:
+      - Overview: tincraft2/index.md
+      - Gameplay:
+          - Overview: tincraft2/gameplay/index.md
+          - Blocks:
+              - Overview: tincraft2/gameplay/Blocks/index.md
+              - Tin Ore: tincraft2/gameplay/Blocks/tinore.md
+
+          - Items:
+              - Overview: tincraft2/gameplay/Items/index.md
+              - Tin Ingot: tincraft2/gameplay/Items/tiningot.md
+
 
 # copyright
 copyright: Copyright (c) 2026 Randomusert. Licensed under the MIT License.

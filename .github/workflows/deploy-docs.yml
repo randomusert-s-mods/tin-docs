@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 permissions:
   contents: write
@@ -21,7 +23,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: '${{ github.ref_name }}'
           fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
